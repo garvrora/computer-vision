@@ -52,7 +52,7 @@ while True:
     
     cv.putText(img,f'{int(dist)}KM',(centre[0]+10,centre[1]-10),cv.FONT_HERSHEY_TRIPLEX, 1, (0,255,255), thickness = 2)
 
-    #Ouskirsts of Jakarta near the volcano pointed on the map for reference
+    #Ouskirts of Jakarta near the volcano pointed on the map for reference
     cv.putText(img,'OUTSKIRTS',(1066,247),cv.FONT_HERSHEY_TRIPLEX, 1, (255,255,255), thickness = 2)
     cv.putText(img,'OF',(1066,277),cv.FONT_HERSHEY_TRIPLEX, 1, (255,255,255), thickness = 2)
     cv.putText(img,'JAKARTA',(1066,307),cv.FONT_HERSHEY_TRIPLEX, 1, (255,255,255), thickness = 2)
