@@ -1,5 +1,4 @@
 import cv2 as cv
-import numpy as np
 import time
 
 #A function that is called for creating trackbars
