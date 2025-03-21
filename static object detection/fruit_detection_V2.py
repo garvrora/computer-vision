@@ -2,7 +2,6 @@ import cv2 as cv
 import numpy as np
 
 img = cv.imread(r"D:\workspace\python programs\openCV\application\fruit detection\given_img.jpeg")
-
 hsv = cv.cvtColor(img, cv.COLOR_BGR2HSV)
 
 purple_L = np.array([121, 34, 59])
